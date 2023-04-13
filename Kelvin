@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello Kelvin</title>
+    <style>
+      #message {
+        border-right: 1px solid black;
+        white-space: nowrap;
+        overflow: hidden;
+        animation: typing 2s steps(14, end) forwards;
+      }
+      
+      @keyframes typing {
+        from { width: 0 }
+        to { width: 14ch }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="message">Hello Kelvin</div>
+  </body>
+</html>
